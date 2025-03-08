@@ -1,2 +1,1 @@
-# root
-Repositório raíz da disciplina
+# Programação de Computadores
