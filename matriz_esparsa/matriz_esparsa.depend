@@ -2,5 +2,10 @@
 1744041143 source:f:\projects\programacao-computadores\root\matriz_esparsa\matriz.c
 	"matriz.h"
 
-1744041680 f:\projects\programacao-computadores\root\matriz_esparsa\matriz.h
+1744043075 f:\projects\programacao-computadores\root\matriz_esparsa\matriz.h
+
+1744041178 source:f:\projects\programacao-computadores\root\matriz_esparsa\main.c
+	<stdio.h>
+	<stdlib.h>
+	"matriz.h"
 
