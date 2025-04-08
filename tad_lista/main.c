@@ -15,10 +15,7 @@ int main()
         printf("Lista vazia.\n");
     }
 
-    for (i = 0; i < tam_vetor; ++i)
-    {
-        insere_chave_lista(chaves[i], &lista);
-    }
+    for (i = 0; i < tam_vetor; insere_chave_lista(chaves[i++], &lista));
 
     printf("Lista: ");
     imprime_lista(&lista);

@@ -96,7 +96,7 @@ void retira_posicao_lista(int posicao, lista_t *lista)
 }
 
 /**
- * Contabiliza a ocorrência de uma chave na lista
+ * Contabiliza as ocorrências de uma chave na lista
  *
  * Retorna um inteiro correspondente ao número de ocorrências da chave na lista.
  */
