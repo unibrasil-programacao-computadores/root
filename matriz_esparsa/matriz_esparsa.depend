@@ -1,10 +1,10 @@
 # depslib dependency file v1.0
-1744041143 source:f:\projects\programacao-computadores\root\matriz_esparsa\matriz.c
+1744133231 source:f:\projects\programacao-computadores\root\matriz_esparsa\matriz.c
 	"matriz.h"
 
-1744043075 f:\projects\programacao-computadores\root\matriz_esparsa\matriz.h
+1744133119 f:\projects\programacao-computadores\root\matriz_esparsa\matriz.h
 
-1744041178 source:f:\projects\programacao-computadores\root\matriz_esparsa\main.c
+1744133131 source:f:\projects\programacao-computadores\root\matriz_esparsa\main.c
 	<stdio.h>
 	<stdlib.h>
 	"matriz.h"
