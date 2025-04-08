@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1744116455 source:c:\projects\programacao-computadores\root\tad_lista\main.c
+	"lista.h"
+
+1744114349 c:\projects\programacao-computadores\root\tad_lista\lista.h
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+
+1744117090 source:c:\projects\programacao-computadores\root\tad_lista\lista.c
+	"lista.h"
+
