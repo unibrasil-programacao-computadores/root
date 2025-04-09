@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build C program",
+        "type": "shell",
+        "command": "gcc",
+        "args": [
+          "-g", "-Wall",
+          "main.c", "lista.c",
+          "-o",
+          "tad_lista"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": ["$gcc"]
+      }
+    ]
+  }
+  
