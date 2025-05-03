@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #include <time.h>
 
+#define NUMBERS_PER_LINE 5
 #define LENGTH_BASE_ARRAY 1000
 #define FILE_PATH_BASE_ARRAY "input/uniform-input-1000-float.txt"
 #define FILE_PATH_PATTERN "input/uniform-input-%d-%d-float.txt"

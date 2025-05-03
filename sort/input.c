@@ -32,10 +32,10 @@ void print_array(const double *arr, long vec_size)
 {
     int i;
 
-    for (i = 0; i < vec_size; ++i)
+    for (i = 1; i <= vec_size; ++i)
     {
-        printf("%lf  ", arr[i]);
-        if (i % 7 == 0) printf("\n");
+        printf("%lf  ", arr[i - 1]);
+        if (!(i % NUMBERS_PER_LINE)) printf("\n");
     }
 }
 
@@ -83,6 +83,8 @@ void sort_uniform_arrays(void (*algorithm) (double* arr, double arr_size), const
             algorithm(arr, vec_size);
             end = clock();
             cpu_time[test - 1] = (double)(end - start) / CLOCKS_PER_SEC;
+
+            free(arr);
 
             if (DEBUG) printf("%s - Vector Size: %d - CPU time : %.6f seconds\n\n", name, vec_size, cpu_time[test - 1]);
         }
