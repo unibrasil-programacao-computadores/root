@@ -3,6 +3,6 @@
 
 #include <stdlib.h>
 
-void run_quicksort(double* arr, double arr_size);
+void quicksort(double* arr, double arr_size);
 
 #endif // SORT_H_INCLUDED

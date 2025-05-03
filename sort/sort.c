@@ -6,8 +6,7 @@ int compare(const void* a, const void* b)
     return diff > 0 ? 1 : diff < 0 ? -1 : 0;
 }
 
-
-void run_quicksort(double* arr, double arr_size)
+void quicksort(double* arr, double arr_size)
 {
     qsort(arr, arr_size, sizeof(double), compare);
 }

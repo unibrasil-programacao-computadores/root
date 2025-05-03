@@ -31,6 +31,10 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="input.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="input.h" />
 		<Unit filename="input/uniform-input-10000-1-float.txt" />
 		<Unit filename="input/uniform-input-10000-2-float.txt" />
 		<Unit filename="input/uniform-input-10000-3-float.txt" />
