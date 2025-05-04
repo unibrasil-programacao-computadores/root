@@ -10,3 +10,9 @@ void quicksort(double* arr, double arr_size)
 {
     qsort(arr, arr_size, sizeof(double), compare);
 }
+
+void selectionsort(double* arr, double arr_size)
+{
+
+}
+
