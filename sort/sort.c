@@ -6,13 +6,17 @@ int compare(const void* a, const void* b)
     return diff > 0 ? 1 : diff < 0 ? -1 : 0;
 }
 
-void quicksort(double* arr, double arr_size)
+void quicksort(double* arr, long arr_size)
 {
     qsort(arr, arr_size, sizeof(double), compare);
 }
 
-void selectionsort(double* arr, double arr_size)
+void selectionsort(double* arr, long arr_size)
 {
 
 }
 
+void insertionsort(double* arr, long arr_size)
+{
+
+}

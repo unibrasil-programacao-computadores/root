@@ -1,19 +1,19 @@
 # depslib dependency file v1.0
-1746370639 source:c:\projects\programacao-computadores\root\sort\main.c
+1746533359 source:c:\projects\programacao-computadores\root\sort\main.c
 	"sort.h"
 	"input.h"
 
-1746307685 c:\projects\programacao-computadores\root\sort\sort.h
+1746533423 c:\projects\programacao-computadores\root\sort\sort.h
 	<stdlib.h>
 
-1746307465 source:c:\projects\programacao-computadores\root\sort\sort.c
+1746533114 source:c:\projects\programacao-computadores\root\sort\sort.c
 	"sort.h"
 
-1746370522 c:\projects\programacao-computadores\root\sort\input.h
+1746533260 c:\projects\programacao-computadores\root\sort\input.h
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
 
-1746370619 source:c:\projects\programacao-computadores\root\sort\input.c
+1746533279 source:c:\projects\programacao-computadores\root\sort\input.c
 	"input.h"
 

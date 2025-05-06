@@ -39,7 +39,7 @@ void print_array(const double *arr, long vec_size)
     }
 }
 
-void sort_base_array(void (*algorithm) (double* arr, double arr_size), const char* name)
+void sort_base_array(void (*algorithm) (double* arr, long arr_size), const char* name)
 {
     double *arr;
     clock_t start, end;
@@ -58,7 +58,7 @@ void sort_base_array(void (*algorithm) (double* arr, double arr_size), const cha
     free(arr);
 }
 
-void sort_uniform_arrays(void (*algorithm) (double* arr, double arr_size), const char* name)
+void sort_uniform_arrays(void (*algorithm) (double* arr, long arr_size), const char* name)
 {
     int num_input_files, test, input, vec_size;
     char file_path[50];
@@ -103,7 +103,7 @@ void sort_uniform_arrays(void (*algorithm) (double* arr, double arr_size), const
     }
 }
 
-void sort_arrays(void (*algorithm) (double* arr, double arr_size), const char* name, const char* file_pattern)
+void sort_arrays(void (*algorithm) (double* arr, long arr_size), const char* name, const char* file_pattern)
 {
     int num_input_files, input, vec_size;
     char file_path[50];
@@ -136,12 +136,12 @@ void sort_arrays(void (*algorithm) (double* arr, double arr_size), const char* n
    }
 }
 
-void sort_ordered_arrays(void (*algorithm) (double* arr, double arr_size), const char* name)
+void sort_ordered_arrays(void (*algorithm) (double* arr, long arr_size), const char* name)
 {
     sort_arrays(algorithm, name, ORDERED_FILE_PATTERN);
 }
 
-void sort_reverse_ordered_arrays(void (*algorithm) (double* arr, double arr_size), const char* name)
+void sort_reverse_ordered_arrays(void (*algorithm) (double* arr, long arr_size), const char* name)
 {
     sort_arrays(algorithm, name, REVERSE_ORDERED_FILE_PATTERN);
 }

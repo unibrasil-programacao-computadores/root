@@ -18,10 +18,10 @@ extern const int size_inputs[];
 
 void load_array(double** arr, long arr_size, const char *file_path);
 void print_array(const double *arr, long vec_size);
-void sort_base_array(void (*algorithm) (double* arr, double arr_size), const char* name);
-void sort_uniform_arrays(void (*algorithm) (double* arr, double arr_size), const char* name);
-void sort_ordered_arrays(void (*algorithm) (double* arr, double arr_size), const char* name);
-void sort_reverse_ordered_arrays(void (*algorithm) (double* arr, double arr_size), const char* name);
+void sort_base_array(void (*algorithm) (double* arr, long arr_size), const char* name);
+void sort_uniform_arrays(void (*algorithm) (double* arr, long arr_size), const char* name);
+void sort_ordered_arrays(void (*algorithm) (double* arr, long arr_size), const char* name);
+void sort_reverse_ordered_arrays(void (*algorithm) (double* arr, long arr_size), const char* name);
 
 
 #endif // INPUT_H_INCLUDED
